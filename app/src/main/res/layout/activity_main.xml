@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fedo.bouniolsalibi.com.businesscard.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                style="@style/RestaurantPicture"
+                android:scaleType="fitXY"
+                android:src="@drawable/restaurant"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/title"
+            android:fontFamily="serif-monospace"
+            android:text="@string/companyName"
+            android:visibility="visible" />
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:orientation="horizontal"
+                android:id="@+id/threepic"
+                android:layout_below="@+id/linear"
+                tools:ignore="ObsoleteLayoutParam">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    style="@style/Fishpic1"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fishpic1"
+                    tools:ignore="ContentDescription"/>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    style="@style/Fishpic2"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fishpic2"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    style="@style/Fishpic3"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fishpic3"
+                    tools:ignore="ContentDescription"/>
+
+            </LinearLayout>
+
+        <TextView
+            android:id="@+id/description"
+            android:text="@string/description"
+            style="@style/description"
+            android:layout_below="@+id/threepic"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            style="@style/detailsAndContact"
+            android:orientation="vertical"
+            android:layout_below="@+id/description">
+
+            <TextView
+                android:id="@+id/OpeningHours"
+                android:text="@string/OpeningHours"
+                style="@style/detailsAndContact"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:text="@string/address"
+                style="@style/detailsAndContact"/>
+
+            <TextView
+                android:id="@+id/telephone"
+                android:text="@string/telephone"
+                style="@style/detailsAndContact"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    </ScrollView>

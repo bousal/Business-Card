@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="text_color">#fae501</color>
+    <color name="OpeningHoursColor">#17d11a</color>
+    <color name="backgroundcolor">#373a3d</color>
+
+</resources>

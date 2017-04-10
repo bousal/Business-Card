@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+    <string name="companyName">Downtown Makaï Fish Restaurant</string>
+    <string name="description">Our restaurant is situated downtown Gotham City and we are pleased to welcome you with or without reservation. Keep in mind that our daily specials are simply unique!</string>
+    <string name="OpeningHours">Tuesday to Sunday 12:00 to 23:00</string>
+    <string name="address">31st street Central square ZIP 614378</string>
+    <string name="telephone">+555 555 555</string>
+</resources>
